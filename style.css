@@ -1,0 +1,74 @@
+@font-face{
+    src: url(fonts/TRON.TTF);
+    font-family: tron;
+}
+
+.container {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: auto;
+    border: .4rem solid #cbcbcb;
+    
+}
+ 
+#quiz {
+    font-size: 5.2rem;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    
+}
+ 
+.btn #start {
+    font-size: 30px;
+    color: #01BBFF;
+}
+ 
+h1 {
+    font-size: 30.8rem;
+    color: rgb(14, 248, 248);
+    margin-bottom: 5rem;
+    border-color: rgb(81, 10, 212);
+    text-align: center;
+    border-radius: 3rem;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    margin-top: 2.3rem;
+}
+ 
+#btn1, #btn2, #btn3, #btn4 {
+    background-color: #281069;
+    max-width: fit-content;
+    font-size: 5.2rem;
+    color: #fff;
+    border: .8rem solid #1D3C6A;
+    margin: auto;
+    padding: auto;
+}
+ 
+#btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover {
+    cursor: pointer;
+    background-color: #738e97;
+}
+ 
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: auto;
+}
+ 
+#progress {
+    color: #af0505;
+    font-size: 2rem;
+}

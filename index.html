@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRON QUIZ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div id = "quiz" class ="flex-colum flex-center">
+            <div id="menu">
+                <div id="home" class="flex-column flex-center">
+                    <h1>LET THE GAMES BEGIN</h1>
+                    <button class="btn" id="start">PLAYER 1 ENTER</button>
+                    <div class= "buttons">
+                        <button id="btn1"><span data-number="1"></span></button>
+                        <button id="btn2"><span data-number="2"></span></button>
+                        <button id="btn3"><span data data-number="3"></span></button>
+                        <button id="btn4"><span data-number="4"></span></button>
+                    </div>
+
+                    <footer>
+                    <p id="progress">Question 1 of 10</p>
+                    </footer>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+    <div class="container">
+        <div id="highScores" class="flex-center flex-column">
+            <h1 id="highScore">TOP PLAYERS</h1>
+            <ul id="highScoresList"></ul>
+            <button href="/" class="btn">HOME</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
