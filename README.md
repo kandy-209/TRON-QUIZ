@@ -1,7 +1,7 @@
 # TRON Quiz Game
 
 ## Description
-This project is TRON quiz utilizing JavaScript and HTML.The quiz begins by pressing the start button and cycles through 10 Question's based from the TRON series. As Player 1 Enters the TRON quiz a Timer begins to count down from 100 seconds they have their progess tracked in a HUD that subtracts 10 seconds off every incorrect answer... so don't answer incorectly or you might be derezzed. The game ends when the quiz is completed or Player 1 runs out of time. At the end Player 1 can save their score to local storage with thier intials or name so they can see their rank compared to prior attempts or other players. (This was the goal)
+This project is a TRON quiz utilizing JavaScript and HTML.The quiz begins by pressing the start button and cycles through 10 Question's based from the TRON series. As Player 1 Enters the TRON quiz a Timer begins to count down from 100 seconds they have their progess tracked in a HUD that subtracts 10 seconds off every incorrect answer... so don't answer incorectly or you might be derezzed. The game ends when the quiz is completed or Player 1 runs out of time. At the end Player 1 can save their score to local storage with thier intials or name so they can see their rank compared to prior attempts or other players. (This was the goal)
 
 ## Table of Contents
 * [Installation](#installation)
